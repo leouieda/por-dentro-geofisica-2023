@@ -1,30 +1,19 @@
 # Template for my reveal.js based slides
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
-It adds some custom styling and CSS classes for making columns, footnotes,
-and more.
+## Resumo
 
-**Preview:** https://www.leouieda.com/talk-template
-
-> The original inspiration is this template by Matthew Turk:
-> https://github.com/matthewturk/mjt-talk-template
-
-## Using
-
-1. Click on the "Use this template" button or go to
-   https://github.com/leouieda/talk-template/generate to create a
-   new repository for your slides.
-1. Change the HTML title (the one that appears on the browser tab)
-   in `index.html`.
-1. Remove the Plausible Analytics script from the `<head>` in `index.html`.
-1. Preview the presentation by
-   [serving the slides locally](#serving-the-slides-locally).
-1. Add your content to `slides.md` and images to `assets`
-   (remove the images you don't want to use).
-1. Commit and push your changes.
-1. Make your presentation public by
-   [enabling GitHub Pages](#serving-on-github-pages).
+Os campos magnético e gravitacional da Terra nos fornecem uma janela para a
+estrutura interna da crosta terrestre. Através dos pequenos distúrbios que
+observamos nesses campos, somos capazes de inferir variações na densidade e
+magnetização da crosta. Por sua vez, essas variações estão associadas a bacias
+sedimentares, recursos minerais e geotermais, fluxo de calor, espessura da
+crosta, entre outros. Nessa palestra, brevemente resumirei minha trajetória na
+geofĩsica e no estudo do campo gravitacional e magnético da Terra. Em seguida,
+irei descrever os temas de pesquisa que tenho abordado recentemente utilizando
+dados do campo magnético: 1) em escala microscópica, mesclando a geofĩsica
+aplicada com o paleomagnetismo através da microscopia magnética; 2) em escala
+continental, aprimorando as formas de estimar o fluxo de calor geotermal da
+Antárctica através de dados aeromagnéticos.
 
 ## What's included
 

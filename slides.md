@@ -12,13 +12,10 @@ The reveal.js configuration can be found in index.html
 </div>
 
 <h1 id="talk-title">
-  A long talk title that may <br>be kind of boring and <br>more than one line long
+  Campos magnéticos, <br>de escala microscópica <br> a continental
 </h1>
 <p id="talk-authors">
-  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>,
-  Author Two,
-  and
-  Author Three
+  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>
 </p>
 
 <!-- Place location and date side-by-side with affiliation logos -->
@@ -26,9 +23,9 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX Month 202X
+21 Novembro 2023
 <span style="margin: 0 20px"></span>
-Event/host of the talk
+Por Dentro Da Geofísica / IAG-USP
 
 <!-- Permission to reuse and CC-BY license logo -->
 <i class="fa fa-camera" style="margin: 0 10px 0 0"></i>
@@ -53,75 +50,9 @@ Feel free to screenshot/share/reuse this presentation
 
 ===============================================================================
 
-# Heading 1
+<!-- .slide: class="slide-transition" -->
 
-This is a slide with some content.
-
-## Heading 2
-
-* Bla bla
-* Bla bla
-
-### Heading 3
-
-Meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh
-meh meh.
-
-===============================================================================
-
-<div class="r-stretch">
-
-# Some facts
-
-About a certain topic.
-
-</div>
-<div class="footnote">
-
-This is a little footnote.
-Use it to add notes, citations, [links](https://www.leouieda.com/), etc.
-<br>
-Notice how the `div` above uses `r-stretch` to push this note to the bottom.
-
-</div>
-
-===============================================================================
-
-<div class="r-stretch centered">
-<div>
-
-# Even more facts!
-
-About many different things.
-
-</div>
-</div>
-<div class="footnote-left">
-
-Left aligned footnote.
-Use `centered` on the `div` above to vertically center content.
-<br>
-Need to put another `div` inside of it as well.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-color="#000000" -->
-
-<div class="r-stretch">
-</div>
-<div class="footnote-center dark">
-
-Centered footnote with a dark background on a slide with a background.
-<br>
-Set the size to `contain` to make sure aspect ratios are preserved and the
-background isn't cropped.
-<br>
-It's a good idea to add alt-text to this footnote if the background is
-important.
-
-</div>
+# Conheça seu palestrante
 
 ===============================================================================
 
@@ -131,94 +62,19 @@ important.
 </div>
 <div class="footnote">
 
-This is how you use a video background.
-The video auto starts when flipping to this slide.
+Bacharelado (USP) | Mestrado e Doutorado (Observatório Nacional)
 
 </div>
 
 ===============================================================================
 
-<!-- .slide: class="slide-transition" -->
+<!-- .slide: data-background-image="assets/paleomagnetism-field-work.jpg" data-background-size="contain"  -->
 
-# A transition slide <br> with a large title
-
-...and some text.
-
-===============================================================================
-
-# Maths
-
-This is an inline $\int_a^b x^2 dx$ and $\delta g = g - \gamma$:
-
-`\[ \int_a^b x^2 dx \]`
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
-
-<div class="quote">
-
-Big quote message with a faded background image.
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
-
+<div class="r-stretch">
 </div>
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#ffffff" -->
-
-<div class="quote dark">
-
-Light fade of the background with a dark quote.
-
-</div>
-
-===============================================================================
-
-# Two column layout
-
-<div class="row">
-<div class="col">
-
-## Theory
-
-Explain something here.
-This is how you make a FontAwesome list:
-
-<ul class="fa-ul">
-
-<li>
-<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
-Make a list with
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
-some awesome icons
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
-instead of bullet points
-</li>
-
-</ul>
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Some text explaining the figure.
-Maybe even a bit of maths like $\gamma$.
-
-</div>
-</div>
-
 <div class="footnote">
 
-Good place for a citation or image credit.
-This one is by Leonardo Uieda (CC-BY).
+IC em paleomagnetismo (orientador Manoel D'Agrella)
 
 </div>
 
@@ -227,128 +83,328 @@ This one is by Leonardo Uieda (CC-BY).
 <div class="r-stretch centered">
 <div>
 
-# Multiple columns
+<img src="assets/tesseroids.svg" style="margin-bottom: 5%;">
 
-Place as many `col`s as you want. They will have the same size.
+Programas em C para modelagem grav na esfera
 
-<div class="row">
-<div class="col">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/nbr_thomas_fire.jpg">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-</div>
+[`tesseroids.leouieda.com`](https://tesseroids.leouieda.com)
 
 </div>
 </div>
 <div class="footnote">
 
-Images by Leonardo Uieda (CC-BY).
+IC \#2 + TCC em gravimetria (orientadora Naomi Ussami)
 
 </div>
 
 ===============================================================================
 
-# This one has columns of different size
-
-<div class="row">
-<div class="col-large tiny">
-
-<img style="width: 95%;" src="assets/nbr_thomas_fire.jpg">
-
-This way the image is larger on the screen. Use it for maps or main figures.
-
+<div class="centered r-stretch">
+<div style="width: 100%; height: 100%">
+<video style="width: auto; height: 100%" muted data-autoplay>
+<source data-src="assets/planting-inversion.mp4" type="video/mp4"/>
+</video>
 </div>
-<div class="col small">
-
-Explain what is shown on the image.
-Use the `small` class to adjust font size.
-
-Maybe include some maths:
-
-$ D\dfrac{\partial^4 w}{\partial x^4} = q - g (\rho_m - \rho_w) w $
-
 </div>
+<div class="footnote-left">
+
+Mestrado e Doutorado em inversão (orientadora Valéria C.F. Barbosa)
+<br>
+Método de plantação para inversão 3D ([Uieda & Barbosa, 2012](https://doi.org/10.1190/geo2011-0388.1))
+
 </div>
 
 ===============================================================================
 
-<div class="row">
-<div class="col tiny">
+<!-- .slide: data-background-image="assets/fatiando-banner.svg" data-background-size="contain" data-background-color="#000000" -->
 
-<img src="assets/japan-trench-globalcmt.png">
-
-This way the image is narrow so it should be in a smaller column.
+<div class="r-stretch">
 
 </div>
-<div class="col-medium">
 
-# Column sizes
+<div class="huge">
 
-Columns come in 3 sizes:
-
-1. `col`
-1. `col-medium`
-1. `col-large`
-
-These are more proportions than fixed sizes.
+**Fatiando a Terra**
 
 </div>
+
+Bibliotecas em Python para modelagem, inversão e processamento
+
+[www.fatiando.org](https://www.fatiando.org)
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/seismic-waves-demo.mp4" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote dark">
+
+Ensinando geofísica na geologia da UERJ com Python + Jupyter + Fatiando
+
 </div>
 
 ===============================================================================
 
-# Code
+<!-- .slide: data-background-video="assets/run-away-to-hawaii.mp4" data-background-size="contain" data-background-color="#000000" -->
 
-Example of using PyGMT to make a map:
-
-<div class="row">
-<div class="col-large fragment small">
-
-This code:
-
-```python
-import pygmt
-
-# Load built-in topography data
-grid = pygmt.datasets.load_earth_relief()
-
-fig = pygmt.Figure()
-# Pseudo-color map of topography
-fig.basemap(
-    region=[-150, -30, -60, 60],
-    projection="I-90/6i",
-    frame=True,
-)
-fig.grdimage(grid=grid, cmap="viridis")
-# Mask continents in dark grey
-fig.coast(land="#333333")
-# Display in Jupyter or pop-up window
-fig.show()
-```
+<div class="r-stretch">
 </div>
-<div class="col-medium fragment small">
+<div class="footnote">
 
-Makes this map 👇
+Professor Visitante na University of Hawaiʻi at Mānoa
 
-<img style="width: 90%" src="assets/pygmt-example.png">
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div>
+<img src="assets/gmt.png" style="width: 60%;">
+
+Programas em C muito utilizados na geofísica (processamento e mapas)
+
+Fui para criar o **PyGMT**
+
+[www.pygmt.org](https://www.pygmt.org)
+
+</div>
+</div>
+<div class="footnote">
+
+IC \#2 + TCC em gravimetria (orientadora Naomi Ussami)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/uh-manoa.jpg" data-background-size="contain"  -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote dark">
+
+Vista da minha sala na UH em direção ao vale de Manoa (sempre tinha um arco-íris)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/hawaii-to-liverpool.mp4" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote">
+
+Fui para a University of Liverpool com o cargo de Lecturer in Geophysics
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/remote-teaching-demo.mp4" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote">
+
+Aprendendo a ser YouTuber durante a pandemia
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/liverpool-to-usp.mp4" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote">
+
+Em 2023, voltei para o IAG-USP como Professor Doutor no Departamento de Geofísica
+
+</div>
+
+===============================================================================
+
+<!-- .slide: class="slide-transition" -->
+
+# Voltando ao tema da palestra
+
+Campos magnéticos, de escala microscópica a continental
+
+===============================================================================
+
+<div class="enormous">
+
+<i class="fas fa-microscope"></i>
+
+</div>
+<div class="small fragment">
+
+**Aluno:** Gelson F. Souza Junior
+<br>
+**Colaboradores:** Ricardo Trindade, Roger Fu, Janine Carmo
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/paleomagnetic-rock-sample.jpg" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch centered">
+
+</div>
+<div class="footnote">
+
+Amostra de rocha para uso em paleomagnetismo
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/classic-molspin-magnetometer.jpg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote">
+
+Magnetômetro que eu usei durante minha IC em paleomagnetismo
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div>
+<img src="assets/qdm-sketch.jpg">
+</div>
+</div>
+<div class="footnote">
+
+Quantum Diamond Microscope (QDM).
+Fonte: [Glenn et al. (2017)](https://doi.org/10.1002/2017GC006946)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-data.jpg" style="width: 70%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-tga.jpg" style="width: 70%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-stretch.jpg" style="width: 70%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-detect.jpg" style="width: 70%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-euler.jpg" style="width: 65%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-inversion.jpg" style="width: 65%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div style="width: 100%">
+<img src="assets/micromag-stereo.jpg" style="width: 65%">
+</div>
+</div>
+<div class="footnote">
+
+Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="enormous">
+
+<i class="fas fa-globe-americas"></i>
+
+</div>
+<div class="small fragment">
+
+**Aluna:** India Uppal
+<br>
+**Colaboradores:** Richard Holme, Vanderlei C. Oliveira Jr.
+
+</div>
+
+===============================================================================
+
+<!-- .slide: class="slide-transition" -->
+
+# Resumindo
+
+===============================================================================
+
+<div class="huge">
+
+**Afim de uma IC?**
+
+Venha conversar!
 
 </div>
 
@@ -368,7 +424,7 @@ Contact:
 <br>
 Source code for this presentation:
 <br>
-[github.com/leouieda/talk-template](https://github.com/leouieda/talk-template)
+[github.com/leouieda/por-dentro-geofisica-2023](https://github.com/leouieda/por-dentro-geofisica-2023)
 
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 <br>
