@@ -172,7 +172,7 @@ Fui para criar o **PyGMT**
 </div>
 <div class="footnote">
 
-IC \#2 + TCC em gravimetria (orientadora Naomi Ussami)
+Projeto coordenado pelo Paul Wessel
 
 </div>
 
@@ -394,9 +394,277 @@ Fonte: [Souza Junior et al. (2023)](https://doi.org/10.31223/X5QD5Z) (CC-BY)
 
 ===============================================================================
 
+<!-- .slide: data-background-image="assets/antarctica-warming.jpg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote">
+
+Fonte: [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/36736/antarctic-warming-trends) (public domain)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/antarctica-heatflow-direct.jpg" data-background-size="contain" data-background-color="#000000" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote dark">
+
+Fonte: [Burton-Johnson et al. (2020)](https://doi.org/10.5194/tc-14-3843-2020)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/antarctica-magnetic-data.jpg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Fonte: India Uppal (CC-BY)
+<br>
+From APMAP2 data ([Golynsky et al., 2018](https://doi.org/10.1029/2018GL078153)) (CC-BY)
+
+</div>
+
+===============================================================================
+
+<div class="centered r-stretch">
+<div class="large">
+
+<p>
+<!-- .element: class="fragment" data-fragment-index="1" --> Dados magnéticos
+</p>
+<p>
+<!-- .element: class="fragment" data-fragment-index="2" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+Profundidade máxima das fontes<sup>1</sup>
+</p>
+<p>
+<!-- .element: class="fragment" data-fragment-index="3" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+Profundidade da isoterma de 580°C<sup>2</sup>
+</p>
+<p>
+<!-- .element: class="fragment" data-fragment-index="4" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+<strong>Fluxo de calor na superfície</strong><sup>3</sup>
+</p>
+
+</div>
+</div>
+<div class="footnote fragment" data-fragment-index="2">
+
+<span class="fragment" data-fragment-index="2"><sup>1</sup> Assumindo magnetização homogenea e induzida.</span>
+<br>
+<span class="fragment" data-fragment-index="3"><sup>2</sup> Assumindo que os minerais magnéticos são magnetita.</span>
+<br>
+<span class="fragment" data-fragment-index="4"><sup>3</sup> Assumindo condutividade térmica homogenea.</span>
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/magnetic-spectrum-method-window.svg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Fonte: [Burton-Johnson et al. (2020)](https://doi.org/10.5194/tc-14-3843-2020)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/magnetic-spectrum-method-full.svg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Fonte: [Burton-Johnson et al. (2020)](https://doi.org/10.5194/tc-14-3843-2020)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/heatflow-model-comparison.svg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Fonte: [Lösing et al. (2020)](https://doi.org/10.3389/feart.2020.00105)
+
+</div>
+
+===============================================================================
+
+<div class="huge">
+
+Métodos espectrais
+
+<img src="assets/magnetic-spectrum-method.svg" style="width: 50%">
+
+<div class="fragment">
+
+possuem **sérios problemas**
+
+<div class="normalsize">
+
+[Audet & Gosselin (2019)](https://doi.org/10.1093/gji/ggz166) |
+[Núñez Demarco et al. (2021)](https://doi.org/10.1093/gji/ggaa361) |
+[Szwillus et al. (2022)](https://doi.org/10.1093/gji/ggac133)
+
+</div>
+
+</div>
+
+</div>
+
+===============================================================================
+
+<div class="centered">
+<div>
+
+<img src="assets/airborne-plus-satellite.jpg" style="width: 90%">
+
+<div class="small">
+
+Ex: [Martos et al., (2017)](https://doi.org/10.1002/2017GL075609), 
+[Kim et al. (2022)](https://doi.org/10.1029/2021JB023329) 
+
+</div>
+
+</div>
+</div>
+<div class="footnote">
+
+Mapa da direita modificado de: [Fox Maule et al. (2005)](https://doi.org/10.1126/science.1106888)
+
+</div>
+
+===============================================================================
+
+<div class="huge">
+
+**Fontes equivalentes**
+
+<div class="small">
+<span class="fragment">~regressão em aprendizagem de máquinas</span>
+</div>
+
+</div>
+<div class="large" style="margin-top: 2em">
+
+<span class="fragment">De **~50k** dados em **dias** com  <i class="fas fa-server"></i> <i class="fas fa-server"></i> </span>
+
+<span class="fragment">a **~10G** dados em **horas** com <i class="fas fa-laptop"></i></span>
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div>
+<img src="assets/hamed-inputs.jpg">
+</div>
+</div>
+<div class="footnote-left">
+
+From the BSc dissertation of Hamed Rashid Hamed Alsalehi (2022)
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div>
+<img src="assets/hamed-grids.jpg">
+</div>
+</div>
+<div class="footnote-left">
+
+From the BSc dissertation of Hamed Rashid Hamed Alsalehi (2022)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/india-results.svg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+
+From the poster presentation: [Uppal et al. (2023)](https://www.compgeolab.org/news/pgr-conference2023.html)
+
+</div>
+
+===============================================================================
+
+# **Objetivos finais**
+
+<div class="large">
+
+1. <!-- .element: class="fragment" --> <strong>Dados</strong> magnéticos Antárticos aéreo + satélite
+1. <!-- .element: class="fragment" --> <strong>Método</strong> atualizado de inversão de fluxo geotermal
+1. <!-- .element: class="fragment" --> <strong>Software livre</strong> que implementa tudo isso
+1. <!-- .element: class="fragment" --> <strong>Aplicações</strong> a outros continentes
+
+</div>
+
+===============================================================================
+
 <!-- .slide: class="slide-transition" -->
 
 # Resumindo
+
+===============================================================================
+
+<div class="large">
+
+1. <!-- .element: class="fragment" --> Microscopia + Geofísica aplicada + Proc. imagens = <strong>Micropaleomagetismo</strong>
+1. <!-- .element: class="fragment" --> Inferência de fluxo geotermal é difícil
+1. <!-- .element: class="fragment" --> Fontes equivalentes FTW!
+1. <!-- .element: class="fragment" --> Muito a fazer para inversão do fluxo geotermal
+
+</div>
+
+===============================================================================
+
+# **Trabalho apresentado de:**
+
+<div class="row">
+<div class="col-gutter">
+
+<img src="https://github.com/indiauppal.png" style="border-radius: 50%;
+  box-shadow: 0px 0px 25px -5px #333333; width: 50%;">
+
+## India Uppal 
+
+(PhD @ U. of Liverpool)
+
+</div>
+<div class="col-gutter">
+
+<img src="https://github.com/Souza-junior.png" style="border-radius: 50%;
+  box-shadow: 0px 0px 25px -5px #333333; width: 50%;">
+
+## Gelson F. Souza Junior
+
+(PhD @ IAG-USP)
+
+</div>
+</div>
 
 ===============================================================================
 
